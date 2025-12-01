@@ -1,8 +1,0 @@
-export default defineEventHandler(async (event) => {
-  await clearUserSession(event);
-
-  return {
-    status: "success",
-    message: "Logout exitoso",
-  };
-});
